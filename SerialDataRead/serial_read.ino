@@ -1,5 +1,6 @@
 //Written by :https://www.github.com/Nabilphysics/ArduinoCodeSample
 //https://www.nabilbd.com   , https://www.linkedin.com/in/nabilphysics/
+// With this code you can receive serial data. It will check start and end mark of the received data and then it will show. 
 #include <SoftwareSerial.h>
 
 SoftwareSerial softwareSerial(9, 11); // RX, TX
